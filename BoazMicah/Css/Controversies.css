@@ -1,0 +1,82 @@
+:root{
+    --clr-dark: #04050a;
+    --clr-light: #f1f5f9;
+    --clr-slate400: #94a3b8;
+    --clr-slate600: #475569;
+    --clr-slate800: #1e293b;
+    --clr-rose: #e11d48;
+    --clr-indigo: #4f46e5;
+}
+
+.Controversies-h2{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-right: 3rem;    
+    font-size: 1.6rem;
+    color: var(--clr-slate400);
+}
+
+.Controversies-span{
+    color: var(--clr-rose);
+}
+.Controversies-span1{
+    color: var(--clr-indigo);
+}
+
+.Controversies-h3{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-right: 3rem;    
+    font-size: 1.6rem;
+    color: var(--clr-slate400);
+}
+
+.Controversies-img{
+    width: 15rem;
+    border-radius: 25px;
+}
+
+/* xs */
+@media(min-width: 475px){
+    .Controversies-h2, .Controversies-h3{
+        font-size: 0.9rem;
+    }
+}
+
+/* sm */
+@media(min-width: 640px){
+    .Controversies-h2, .Controversies-h3{
+        font-size: 1rem;
+    }
+}
+
+/* md */
+@media(min-width: 768px){
+    .Controversies-h2, .Controversies-h3{
+        font-size: 1rem;
+    }
+}
+
+/* lg */
+@media(min-width: 1024px){
+    .Controversies-h2, .Controversies-h3{
+        font-size: 1.2rem;
+    }
+}
+
+/* xl */
+@media(min-width: 1280px){
+    .Controversies-h2, .Controversies-h3{
+        font-size: 1.4rem;
+    }
+
+}
+
+/* 2xl */
+@media(min-width: 1536px){
+    .Controversies-h2, .Controversies-h3{
+        font-size: 1.6rem;
+    }
+}
